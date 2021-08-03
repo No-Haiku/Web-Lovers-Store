@@ -6,8 +6,7 @@ from django.shortcuts import render,HttpResponse
 def home (request):
     return render(request,"core/home.html")
 
-def blog (request):
-    return render(request,"core/blog.html")
+
 
 def sample (request):
     return render(request,"core/sample.html")
